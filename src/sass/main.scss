@@ -1,0 +1,101 @@
+@import 'colors';
+@import 'measures';
+@import 'fonts';
+@import 'mixins';
+@import 'functions';
+
+body {
+    background-color: $black;
+    //Main Container
+    .container {
+        font-family: $rambla;
+        display: flex;
+        flex-direction: column;
+        .header {
+            flex: 1;
+            border-bottom: apply-border(1px, solid, $green);
+            padding-bottom: $ten;
+            .brand {
+                color: $green;
+                font-size: $title;
+            }
+        }
+        //Content
+        .content { 
+            flex: 1;
+            .section {
+                padding: $ten;
+                .title {
+                    color: $grey;
+                    font-size: $thirty;
+                    padding: $forty
+                }
+                .crypto-items {
+                    white-space: nowrap;
+                    overflow: hidden;
+                    margin-top: 10%;
+                    .crypto-item {
+                        display: inline-block;
+                        padding: 0 $forty 0 $forty;
+                        .crypto-title {
+                            font-size: $forty;
+                            color: $orange;
+                            margin-bottom: $twenty
+                        }
+                        .crypto-info-static {
+                            color: $orange;
+                            margin: $ten 0 $ten 0
+                        }
+                        .crypto-info-dynamic {
+                            color: $white
+                        }
+                    }
+                }
+            }
+            .section:first-child {
+                border-bottom: apply-border(1px, solid, $orange);
+            }
+        }
+        .footer {
+            flex: 1;
+            justify-content: flex-end;
+            .white {
+                color: $white;
+            }
+        }
+    }
+    //Grid
+    .row {
+        display: flex;
+        justify-content: space-between;
+    }
+    .col {
+        flex: 1;
+        width: $full;
+        margin: 0 $ten 0 $ten
+    }
+    .border-right-orange { border-right: apply-border(1px, solid, $orange) }
+    .border-right-orange:last-child { border: none }
+    .align-left { float: left }
+    .align-right { float: right }
+    .align-center { text-align: center; }
+    //Buttons
+    .button {
+        padding: $ten;
+        cursor: pointer;
+        @include ease()
+    }
+    .button:hover {
+        border: apply-border(1px, solid, $white);
+        @include rotate(1080deg);
+        @include radius(5px);
+    }
+    .btn-orange {
+        border: apply-border(1px, solid, $orange);
+        color: $orange; 
+    }
+    .btn-orange:hover {
+        border-color: $glow_orange;
+        color: $glow_orange;
+     }
+}

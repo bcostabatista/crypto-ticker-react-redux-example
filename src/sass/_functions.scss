@@ -1,0 +1,4 @@
+/*This is only to show how to use sass functions*/
+@function apply-border($px, $type, $color) {  
+    @return $px $type $color;  
+}

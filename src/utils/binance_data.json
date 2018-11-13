@@ -1,0 +1,1704 @@
+{
+	"timezone": "UTC",
+	"serverTime": 1542142035195,
+	"rateLimits": [
+		{
+			"rateLimitType": "REQUEST_WEIGHT",
+			"interval": "MINUTE",
+			"limit": 1200
+		},
+		{
+			"rateLimitType": "ORDERS",
+			"interval": "SECOND",
+			"limit": 10
+		},
+		{
+			"rateLimitType": "ORDERS",
+			"interval": "DAY",
+			"limit": 100000
+		}
+	],
+	"exchangeFilters": [],
+	"symbols": [
+		{
+			"symbol": "ETHBTC",
+			"status": "TRADING",
+			"baseAsset": "ETH",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00324900",
+					"maxPrice": "0.32485000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.00100000",
+					"maxQty": "100000.00000000",
+					"stepSize": "0.00100000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "LTCBTC",
+			"status": "TRADING",
+			"baseAsset": "LTC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00078100",
+					"maxPrice": "0.07809500",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "100000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "BNBBTC",
+			"status": "TRADING",
+			"baseAsset": "BNB",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00014520",
+					"maxPrice": "0.01451450",
+					"tickSize": "0.00000010"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "NEOBTC",
+			"status": "TRADING",
+			"baseAsset": "NEO",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00024100",
+					"maxPrice": "0.02409500",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "100000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "QTUMETH",
+			"status": "TRADING",
+			"baseAsset": "QTUM",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00180700",
+					"maxPrice": "0.18068000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "EOSETH",
+			"status": "TRADING",
+			"baseAsset": "EOS",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00251400",
+					"maxPrice": "0.25139500",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "SNTETH",
+			"status": "TRADING",
+			"baseAsset": "SNT",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00001705",
+					"maxPrice": "0.00170440",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "BNTETH",
+			"status": "TRADING",
+			"baseAsset": "BNT",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00061700",
+					"maxPrice": "0.06165000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "BCCBTC",
+			"status": "TRADING",
+			"baseAsset": "BCC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00818100",
+					"maxPrice": "0.81804000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.00100000",
+					"maxQty": "100000.00000000",
+					"stepSize": "0.00100000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "GASBTC",
+			"status": "TRADING",
+			"baseAsset": "GAS",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00007500",
+					"maxPrice": "0.00744000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "100000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "BNBETH",
+			"status": "TRADING",
+			"baseAsset": "BNB",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00447700",
+					"maxPrice": "0.44761000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "BTCUSDT",
+			"status": "TRADING",
+			"baseAsset": "BTC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "USDT",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "646.07000000",
+					"maxPrice": "64606.50000000",
+					"tickSize": "0.01000000"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.00000100",
+					"maxQty": "10000000.00000000",
+					"stepSize": "0.00000100"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "10.00000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "ETHUSDT",
+			"status": "TRADING",
+			"baseAsset": "ETH",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "USDT",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "21.00000000",
+					"maxPrice": "2099.90000000",
+					"tickSize": "0.01000000"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.00001000",
+					"maxQty": "10000000.00000000",
+					"stepSize": "0.00001000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "10.00000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "HSRBTC",
+			"status": "BREAK",
+			"baseAsset": "HSR",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00007200",
+					"maxPrice": "0.00713500",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "10000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "OAXETH",
+			"status": "TRADING",
+			"baseAsset": "OAX",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00013300",
+					"maxPrice": "0.01329300",
+					"tickSize": "0.00000010"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "DNTETH",
+			"status": "TRADING",
+			"baseAsset": "DNT",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00001263",
+					"maxPrice": "0.00126280",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "MCOETH",
+			"status": "TRADING",
+			"baseAsset": "MCO",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00202600",
+					"maxPrice": "0.20254500",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "ICNETH",
+			"status": "BREAK",
+			"baseAsset": "ICN",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00018350",
+					"maxPrice": "0.01834450",
+					"tickSize": "0.00000010"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "MCOBTC",
+			"status": "TRADING",
+			"baseAsset": "MCO",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00006600",
+					"maxPrice": "0.00656500",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "10000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "WTCBTC",
+			"status": "TRADING",
+			"baseAsset": "WTC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00004320",
+					"maxPrice": "0.00431600",
+					"tickSize": "0.00000010"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "WTCETH",
+			"status": "TRADING",
+			"baseAsset": "WTC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00133100",
+					"maxPrice": "0.13301500",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "LRCBTC",
+			"status": "TRADING",
+			"baseAsset": "LRC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00000150",
+					"maxPrice": "0.00014960",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "LRCETH",
+			"status": "TRADING",
+			"baseAsset": "LRC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00004608",
+					"maxPrice": "0.00460730",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "QTUMBTC",
+			"status": "TRADING",
+			"baseAsset": "QTUM",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00005900",
+					"maxPrice": "0.00587000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "10000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "YOYOBTC",
+			"status": "TRADING",
+			"baseAsset": "YOYO",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00000052",
+					"maxPrice": "0.00005190",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "OMGBTC",
+			"status": "TRADING",
+			"baseAsset": "OMG",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00005000",
+					"maxPrice": "0.00500000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "10000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "OMGETH",
+			"status": "TRADING",
+			"baseAsset": "OMG",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00154100",
+					"maxPrice": "0.15404000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "ZRXBTC",
+			"status": "TRADING",
+			"baseAsset": "ZRX",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00001004",
+					"maxPrice": "0.00100400",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "ZRXETH",
+			"status": "TRADING",
+			"baseAsset": "ZRX",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00031005",
+					"maxPrice": "0.03100500",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "STRATBTC",
+			"status": "TRADING",
+			"baseAsset": "STRAT",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00002180",
+					"maxPrice": "0.00217300",
+					"tickSize": "0.00000010"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "STRATETH",
+			"status": "TRADING",
+			"baseAsset": "STRAT",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00067000",
+					"maxPrice": "0.06700000",
+					"tickSize": "0.00000100"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "0.01000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "0.01000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "SNGLSBTC",
+			"status": "TRADING",
+			"baseAsset": "SNGLS",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00000042",
+					"maxPrice": "0.00004180",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "SNGLSETH",
+			"status": "TRADING",
+			"baseAsset": "SNGLS",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00001292",
+					"maxPrice": "0.00129110",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "BQXBTC",
+			"status": "TRADING",
+			"baseAsset": "BQX",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00000497",
+					"maxPrice": "0.00049630",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "BQXETH",
+			"status": "TRADING",
+			"baseAsset": "BQX",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00015280",
+					"maxPrice": "0.01527900",
+					"tickSize": "0.00000010"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "KNCBTC",
+			"status": "TRADING",
+			"baseAsset": "KNC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00000563",
+					"maxPrice": "0.00056300",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "KNCETH",
+			"status": "TRADING",
+			"baseAsset": "KNC",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00017340",
+					"maxPrice": "0.01733700",
+					"tickSize": "0.00000010"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "FUNBTC",
+			"status": "TRADING",
+			"baseAsset": "FUN",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00000019",
+					"maxPrice": "0.00001840",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "FUNETH",
+			"status": "TRADING",
+			"baseAsset": "FUN",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "ETH",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00000568",
+					"maxPrice": "0.00056740",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.01000000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		},
+		{
+			"symbol": "SNMBTC",
+			"status": "TRADING",
+			"baseAsset": "SNM",
+			"baseAssetPrecision": 8,
+			"quoteAsset": "BTC",
+			"quotePrecision": 8,
+			"orderTypes": [
+				"LIMIT",
+				"LIMIT_MAKER",
+				"MARKET",
+				"STOP_LOSS_LIMIT",
+				"TAKE_PROFIT_LIMIT"
+			],
+			"icebergAllowed": true,
+			"filters": [
+				{
+					"filterType": "PRICE_FILTER",
+					"minPrice": "0.00000091",
+					"maxPrice": "0.00009060",
+					"tickSize": "0.00000001"
+				},
+				{
+					"filterType": "LOT_SIZE",
+					"minQty": "1.00000000",
+					"maxQty": "90000000.00000000",
+					"stepSize": "1.00000000"
+				},
+				{
+					"filterType": "MIN_NOTIONAL",
+					"minNotional": "0.00100000"
+				},
+				{
+					"filterType": "ICEBERG_PARTS",
+					"limit": 10
+				},
+				{
+					"filterType": "MAX_NUM_ALGO_ORDERS",
+					"maxNumAlgoOrders": 5
+				}
+			]
+		}
+	]
+}
